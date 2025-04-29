@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Gothic+A1&display=swap');
+@theme {
+  --font-display-serif: 'DM Serif Display', serif;
+  --font-display-gothic: 'Gothic A1', sans-serif;
+  --color-primary: #2c3e66;
+  --color-secondary: #4b5d84;
+  --color-bluegray: #6a748e;
+  --color-darkblue: #0a2342;
+  --color-black: #333333;
+  --color-gray: #7a7a7a;
+  --color-light-gray: #9f9f9f;
+  --color-border-gray: #cdcdcd;
+  --color-bg: #fbfbfb;
+  --container-w1280: 1280px;
+  --shadow-md: 0px 0px 15px rgba(106, 115, 142, 0.2);
+}
+:root {
+  font-family: 'Gothic A1', sans-serif;
+  color: #333333;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+a {
+  display: block;
+}
